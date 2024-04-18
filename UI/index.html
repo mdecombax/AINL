@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+    <header class="w-full py-5 bg-blue-500 text-white text-center shadow-lg">
+        <h1>Newsletter Service</h1>
+    </header>
+    <button id="generateBtn" class="mt-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Generate Newsletter
+    </button>
+    <div id="loadingMessage" class="mt-5 text-gray-700 hidden"></div>
+    <div id="newsletterContent" class="mt-5 p-5 bg-white rounded shadow-lg w-3/4 hidden markdown-body"></div>
+    <script src="script.js"></script>
+</body>
+</html>

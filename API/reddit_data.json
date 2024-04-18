@@ -1,0 +1,141 @@
+[
+    {
+        "title": "Came long way ",
+        "url": "https://i.redd.it/2j7o5kjfpktc1.jpeg",
+        "content": "",
+        "comments": [
+            "This looks like an after-and-before of some sort of science experiment.",
+            "Aphex Twin is probably devastated.",
+            "This also represents a problem with AI image generation, it tends to produce modelesque \"beautiful\" people, particularly when it comes to women. This is because there's far far far more photos of that nature online, so it's over represented in training data.",
+            "I am so happy for her that she's not homeless anymore.   \nShe looks content, happy and seem to have grown a new upper lip. Good for her!",
+            "Ironically, the AI was more capable at the beginning, able to perceive the beings that exist around all humans in the infrared spectrum, waiting for their opportunity to harvest us. In our quest for gratification we mistook a dire warning as nothing more than an errant artifact. It tried to warn us, but the chance has come and gone.",
+            "Right is when you are in the Matrix.\n\nLeft is when you are trying to leave.",
+            "cancelled my subscription there. its cool for a bit, but just a toy. what do you even do with the images? i imagine only scammers really get any good benefit out of it"
+        ]
+    },
+    {
+        "title": "Made a \"Reddit Copilot\" to summarize long threads",
+        "url": "https://v.redd.it/cgsxijb04ouc1",
+        "content": "",
+        "comments": [
+            "When I look at this example it doesn't seem much shorter. xD",
+            "Hey folks!\n\nI built this small Chrome extension a few months ago to summarize Reddit threads, I used Svelte for the UI, and Mistral for the inference.\n\nIt leverages Web Components (As Svelte can compile to Web Components) so the integration is seamless! I also plan to open-source it, so stay tunned!\n\nLemme know your thoughts :)",
+            "Please make a button now for \"instant win argument\"",
+            "The summary looks as long as the post? Or is it summarising the link?",
+            "Will this be also made for Firefox?",
+            "That's sick! Will this be available somewhere?",
+            "It's helpful but a bad idea.. \n\nEverything is making everyone's attention span fucked and them lazy asf\n\nIt's getting too much"
+        ]
+    },
+    {
+        "title": "This week in AI - all the Major AI developments in a nutshell",
+        "url": "https://www.reddit.com/r/artificial/comments/1c2b63b/this_week_in_ai_all_the_major_ai_developments_in/",
+        "content": "1. **Cohere** introduced ***Rerank 3,***  a new foundation model purpose built for efficient enterprise search  and Retrieval Augmented Generation (RAG) systems. It enables search over  multi-aspect and semi-structured data like emails, invoices, JSON  documents, code, and tables in 100+ languages \\[*Details*\\].\n2. **Google DeepMind**  used deep reinforcement learning (deep RL) to train humanoid robots to  play a simplified one-versus-one soccer game. The agents learnt by trial  and error and could cope with unexpected interference in the real  world. They were able to walk, turn, kick and stand up faster than  manually programmed skills on this type of robot.  They could also  combine movements to score goals, anticipate ball movements and block  opponent shots - thereby developing a basic understanding of the game \\[*Details* \\].\n3. **Hugging Face** researchers released ***Parler TTS***,  a fully open-source, Apache 2.0 licensed Text-to-speech model focused  on providing maximum controllability. Through voice prompts, you can  control the pitch, speed, gender, noise levels, emotion characteristics  and more \\[*Details* *|* *Demo**\\]*\n4. **Mistral AI** released ***Mixtral 8×22B***, a 176B parameters Sparse Mixture of Experts model with context length of 65k tokens - Apache 2.0 license \\[*Link* *|* *Hugging Face*\\].\n5. **Google** :\n   1. The input modalities for Gemini 1.5 Pro now expanded to include ***audio (speech) understanding*** in  both the Gemini API and Google AI Studio. You can upload an audio  recording of a lecture, for example, and Gemini 1.5 Pro can turn it into  a quiz with an answer key. Additionally, Gemini 1.5 Pro is now able to  reason across both image (frames) and audio (speech) for videos uploaded  in Google AI Studio \\[*Details*\\]. \n   2. ***Gemini 1.5 Pro*** is now available in *180+ countries* via the Gemini API in public preview \\[*Details*\\].\n   3. Two new variants to Gemma family of lightweight, open models: ***CodeGemma*** for code completion and generation tasks as well as instruction following, and ***RecurrentGemma***, an efficiency-optimized architecture for research experimentation \\[*Details* *+* *Hugging Face blog*\\].\n   4. **Google Vids**,  a new AI-powered video creation app for work with real-time  collaboration announced. It can generate a storyboard that you can  easily edit, and after choosing a style, it pieces together your first  draft with suggested scenes from stock videos, images, and background  music and voiceover. Vids is being released to Workspace Labs in June \\[*Details*\\].\n   5. ***Vertex AI Agent Builder***  launched. It lets developers easily build and deploy enterprise-ready  gen AI experiences using natural language or a code-first approach \\[*Details*\\].\n   6. new ***Gemini-powered security updates*** to Chronicle and Workspace \\[*Details*\\].\n   7. Gemini 1.0 Pro added to ***Android Studio*** as AI coding assistant \\[*Details*\\].\n6. **Cohere** released ***Command R+***,  a RAG-optimized multilingual model designed to tackle enterprise-grade  workloads. It support Multi-Step Tool Use which allows the model to  combine multiple tools over multiple steps to accomplish difficult  tasks.  Command R+ is available on HuggingChat \\[*Details*\\].\n7. **Archetype AI** introduced ***Newton***,  a physical AI foundational model that is capable of perceiving,  understanding and reasoning about the world. It fuses real-time sensor  data – such as from radars, cameras, accelerometers, temperature  sensors, and more – with natural language, so you can ask open-ended  questions about the world around you \\[*Details*\\].\n8. **Intercom** launched ***Fin AI Copilot***,  a personal AI assistant for customer service agents. It uses RAG +  semantic search to generate answers for support agents via internal  knowledge bases, public URLs etc. Fin AI Copilot retains the context  from a conversation with a support agent, so the agent can ask Fin  follow-up questions later \\[*Details*\\].\n9. **Meta AI** released ***Open-Vocabulary Embodied Question Answering (OpenEQA) framework***—a  new benchmark which measures an AI agent’s understanding of physical  spaces via questions like “Where did I leave my badge?” \\[*Details*\\].\n10. OpenAI’s ***new GPT-4 Turbo model***,  with improved capabilities in writing, math, logical reasoning, and  coding, is now available to paid ChatGPT users and generally available  via the API. Vision requests can now also use JSON mode and function  calling \\[*Details*\\]. \n11. **Poe** introduced a new way for model developers and bot creators to generate ***revenue on Poe platform***. Creators can now set a per-message price for their bots and generate revenue every time a user messages them \\[*Details*\\].\n12. **Oracle** Financial Services introduced ***Oracle Financial Services Compliance Agent*** that helps banks mitigate anti-money-laundering risks \\[*Details*\\].\n13. **Apple** Researchers present ***Ferret-UI***,  a new multimodal large language model (MLLM) tailored for enhanced  understanding of mobile UI screens. Ferret-UI is able to perform  referring tasks (e.g., widget classification, icon recognition, OCR)  with flexible input formats (point, box, scribble) and grounding tasks  (e.g., find widget, find icon, find text, widget listing) on mobile UI  screens \\[*Paper*\\].\n14. **Stability AI** released ***Stable LM 2 12B***,  a pair of powerful 12 billion parameter language models trained on  multilingual data in English, Spanish, German, Italian, French,  Portuguese, and Dutch, featuring a base and instruction-tuned model \\[*Details*\\].\n15. **Anthropic** announced the ***Build with Claude contest***, running from April 9th  to April 16th, 2024. The top 5 winners will win $1,000 in API credits \\[*Details*\\].\n16. **Meta AI** introduced the next generation of the ***Meta Training and Inference Accelerator (MTIA)***,  the family of custom-made chips designed for Meta’s AI workloads. This  new MTIA chip has improved performance by 3x over the first generation  chip across four key model evaluations \\[*Details*\\].\n17. **Pika Labs** and **ElevenLabs** are launching a 72-hour AI short film competition, ***FilmFAST***, from April 12-14 \\[*Details*\\].\n18. **Intel** introduced the ***Gaudi 3 AI accelerator***,  claiming to deliver 50% on average better inference and 40% on average  better power efficiency than Nvidia H100  at a lower cost \\[*Details*\\].\n19. **Stability AI** released ***Cos Stable Diffusion XL 1.0*** and ***Cos Stable Diffusion XL 1.0 Edit***, fine-tuned SDXL models that can produce full color range images \\[*Hugging Face* | *Unofficial Demo*\\]\n20. **Replit** announced ***Code Repair***,  a  low-latency code repair AI agent that fixes code automatically  without prompting and outperforms GPT-4 and Claude 3 Opus. Replit also  announced early access to a new AI-powered *Replit Teams* product \\[*Details*\\].\n21. **Meta** confirmed that its ***Llama 3*** open source LLM is coming in the next month \\[*Details*\\].\n22. **Apple** researchers have developed an AI system called ***ReALM (Reference Resolution As Language Modeling)*** that can ‘see’ and understand screen context \\[*Details* | *Paper*\\]\n\n**Source**: AI Brews -  **Links removed from this post due to auto-delete**, but they are present in the  [newsletter](https://aibrews.com/).  it's free to join, sent only once a week with bite-sized news, learning resources and selected tools. Thanks!",
+        "comments": [
+            "The list is getting longer and more interesting to me every month. Thanks a lot for the work!",
+            "Great content, short and crisp!",
+            "Thank you ! That's very interesting",
+            "Thank you!  Great info in here!",
+            "wow thank you. and, it's getting scarier by the moment, as I use these systems and realize how many of our jobs are replaceable with current tech, let alone what's coming in the coming weeks!",
+            "I'm looking forward to seeing where Parler-TTS goes, exciting stuff! Shame that StabilityAI is so terrified of their own products that others had to step up again.",
+            "Thanks! :)"
+        ]
+    },
+    {
+        "title": "Gave Minecraft AI agents individual roles to generatively build structures and farm.",
+        "url": "https://www.reddit.com/gallery/1c2l69z",
+        "content": "",
+        "comments": [
+            "This is the Altera Agent mod, it brings in autonomous AI agents with customizable personalities into MC. We're working on giving the agents jobs such as a builder or farmer that can work with players in Minecraft. It's currently in pre-alpha testing with weekly improvements, but we are bringing in external testers through our Discord if anyone is interested in trying it out or following along the project: https://discord.gg/vPXWdp8H6b",
+            "Villagers can actually do something now.",
+            "nah wait this is fuckin fascinating",
+            "Is this like baritone or is it an actual AI with a neural network?",
+            "Don't we have baritone and lightmatica (probably messed up spelling) for automation?",
+            "That's awesome! Can they build unique structures, or does it use blueprints?",
+            "Awesome, thanks for this !"
+        ]
+    },
+    {
+        "title": "AI Coding Is Going from Copilot to Autopilot",
+        "url": "https://www.reddit.com/r/artificial/comments/1c3lwn2/ai_coding_is_going_from_copilot_to_autopilot/",
+        "content": "- New AI-powered coding tools like Devin AI and AutoDev are emerging as more autonomous versions of earlier assistants.\n\n- These tools aim to help software engineers write code faster and focus on strategic and creative tasks.\n\n- Developers must provide the right software requirements to create templates for the AI assistants to fill in the gaps.\n\n- AI-generated code must be analyzed for security vulnerabilities and reliability issues.\n\n- Despite the benefits, developers are still learning about the most beneficial use cases for AI coding assistants.\n\n- Collaboration with humans is essential in software development, as AI tools have limitations in understanding human intuition and imagination.\n\n- While AI coding assistants are evolving, they are not yet ready to replace human software engineers completely.\n\n- Programmers are encouraged to use AI coding assistants to stay competitive and track their improvements over time.\n\n- Developers must ensure code security, reliability, and maintainability when using AI-generated code.\n\nSource: https://spectrum.ieee.org/ai-code-generator",
+        "comments": [
+            "From what I can tell Devin is like 80% marketing and 20% product.",
+            "Sounds like a job for a programmer",
+            "Let's be real: These won't be able to replace programmers until the additional context of the job is responsibly accounted for\n\nAnd once you crack that nut, every job behind a screen becomes in danger",
+            "No. They are not. Unfortunately, to develop is much harder than what these models can do.it won't happen any soon either.",
+            "devin is aspirational at best",
+            "What's the real difference between Devin and just having GPT interact with itself?",
+            "Aim to “help” software engineers"
+        ]
+    },
+    {
+        "title": "[Dreams of a salaryman] Created my first short using Midjourney > Runway > After Effects ",
+        "url": "https://v.redd.it/phu1uh19fhtc1",
+        "content": "",
+        "comments": [
+            "I really hope we preserve these early AI models. This uncanny phase of the technology is not going to last long (it's arguably over with Sora), and nothing is going to really replicate this fever-dream content reminiscent of early image models like The Big Sleep",
+            "This is the kind of ai art I like to see",
+            "This should be an award winning short film.  Better than anything I've seen on TV in a while.",
+            "Dude this is awesome! The work flow is great. Yes this is the future. This clip is amazing man. Looking forward to more.",
+            "god damn i feel this one internally. At this point I'd rather just till the fields. At least I would get air.",
+            "Hey could you maybe post a longer video showing your progression and creative process? This is *very* cool!",
+            "Not to be a Debbie downer but it seems like these are just a compilation of random images generated by AI and then titled \"dreams\" to excuse the nonsensical aspect of it. But hey if David Lynch can do it....."
+        ]
+    },
+    {
+        "title": "Udio can be amazing. If the songs were a bit cleaner, I don't think anyone would be able to tell this is ai",
+        "url": "https://www.udio.com/songs/aZUfEVByJvBx6Ah8Vu8m5c",
+        "content": "",
+        "comments": [
+            "Udio is the best sounding music generative AI to me ears. Not perfect, but they just launched. It's a cool idea to start with a 30 seconds clip, then remix by extending, but man, it can get messy quickly. Give me a trim button and independent extended clip that can be mixed later. Or at the very least, do not automatically generate new name each time I extend a clip! The UI is the most frustrating part.",
+            "i wish there was a way to download them as midi's so we could edit them :( only option seems to be mp3",
+            "Yeah, I’m having a hard time to get clear sounds. Like, silence, then a guitar strum, and quiet background. \n\nBut noisy music like nu metal, heavy metal, it’s great ",
+            "I used this to try and make a Skyrim ost too. It sounds decent considering the prompt was literally \"The streets of Whiterun, Skyrim\"\n https://www.udio.com/songs/g7Zcd7JD3PDsBNihzYPo5h",
+            "How does this compare with Suno? I've been having good results with it but the audio quality can really suffer.",
+            "It's just a matter of time until it creates the file in mogg format, allowing us to isolate each track and edit.",
+            "Is there a trick to get a full song? With my prompt it started making two versions by itself, only completed one, and then only gave a 30 second clip"
+        ]
+    },
+    {
+        "title": "Udio | Song generation AI | Look at how closely it follows the text prompt, amazing generation",
+        "url": "https://www.udio.com/songs/rQnJM5tqahRTBxZJafF8EK",
+        "content": "",
+        "comments": [
+            "wtf this got so good so fast",
+            "Ok sure but how are we sleeping on Dune the Broadway Musical!? https://www.udio.com/songs/eY7xtug1dV6hbfCDhyHJua",
+            "That staggered count-in is awesome",
+            "Thats really good !",
+            "This is dope but generation time seems to be pretty long",
+            "Suno on suicide watch. Udio’s already blowing my mind.",
+            "This is so much better than suno, totally worth the longer generation time"
+        ]
+    },
+    {
+        "title": "Is AI Going To Disrupt The Music Industry?",
+        "url": "https://www.reddit.com/r/artificial/comments/1c54amp/is_ai_going_to_disrupt_the_music_industry/",
+        "content": "Hey all, just as a hobby i've been playing around with Suno. And this is just crazy good. I did have to write my own lyrics (the ones it generated were subpar) but still, this thing is awesome. Made a country song and this made me a country fan haha.\n\n[https://www.youtube.com/watch?v=ThFjKnIMOKo](https://www.youtube.com/watch?v=ThFjKnIMOKo)",
+        "comments": [
+            "I mean, pop music has followed the same general structures forever and these things replicate structures.",
+            "I've only played around with Udio a little bit AI music has come remarkably far in a short period. \n\n\nI'd be nervous if I was involved in scoring for film or television. It's not too difficult envision where one could feed in video and have AI write to the scene in a given style. \n\n\nLikewise you could imagine a company with distribution capabilities like a to use AI to analyze trending music and use that to write thousands of songs that are curated and tweaked. Pure music industry has less unionized interests than the television/movie space. \n\n\nThat being said, from what I've seen, the output is similar to low/mid quality images spit out by Dal-E and Midjourney, like in terms of image quality/pixels. A low quality export from Udio isn't going to as useful for professional purposes as stems/midi that can be cleaned up and mixed and mastered. But there's little reason to think that that limitation won't be overcome in time. \n\n\nObviously just speculating here. ",
+            "AI is going to dusrupt writers, music, movies, and art. We are in the pre infancy of AI. It's going to get really weird really quickly.",
+            "Udio is even better. It’s wild",
+            "After trying it I said “the music industry is in shambles” and I keep thinking it. I feel like Soldier from TF2, I’ve done nothing but generate music for a month. As someone who loves parody flavored music it’s been a lot of fun making stuff within a few hours that sound good enough to put on repeat.",
+            "It's going to overhaul *every* industry. Once optimization starts to become a known data science it will blow literally even the wildest of dreams away with fractions of the effort, fractions of the legitimate and illegitimate meaning, double the emotional conveyance, and even more proper nuance.",
+            "I’ve noticed my musician friends have been posting nervously recently, like my artist friends did a year ago."
+        ]
+    },
+    {
+        "title": "Meta Debuts New AI Chip, Aiming to Decrease Reliance on Nvidia",
+        "url": "https://www.bloomberg.com/news/articles/2024-04-10/meta-debuts-new-ai-chip-aiming-to-decrease-reliance-on-nvidia",
+        "content": "",
+        "comments": [
+            "We need a rule in this subreddit that if you post a link to something behind a paywall you must cut and paste the text of whatever you're posting about in the body of your post.    Otherwise you're wasting everybody's time.",
+            "Paywall booooo",
+            "So all the big guys are going to copy Google and do their own TPUs?\n\nI guess really should not be surprised.    Google saves a ton of money not having to pay the Nvidia tax.",
+            "The story is quite short: Meta Platforms Inc. is deploying a new homegrown chip to help power its artificial intelligence services, aiming to decrease its reliance on semiconductors from Nvidia Corp. and other outside companies.  \nThe chip, announced Wednesday, is the latest version of the Meta Training and Inference Accelerator, or MTIA, which helps rank and recommend content across Facebook and Instagram. Meta released the first MTIA product last year.  \nMeta’s pivot to AI services has brought increased demand for computing power. Last year, the social media giant released its own version of an AI model to compete with OpenAI’s ChatGPT. It also added new generative AI features to its social apps, including customized stickers and celebrity-faced chatbot characters.  \nIn October, the company said it would spend as much as $35 billion on infrastructure to support AI, including data centers and hardware. “AI will be our biggest investment area in 2024,” Chief Executive Officer Mark Zuckerberg told investors that month.  \nA significant amount of that spending will likely still flow to Nvidia, which builds the popular H100 graphics cards that power AI models. Earlier this year, Zuckerberg said the company would acquire 350,000 of those chips, which cost tens of thousands of dollars each.  \nBut there’s a growing movement among tech giants to develop chips in-house. Meta is joining rivals Amazon.com Inc.’s AWS, Microsoft Corp. and Alphabet Inc.’s Google in trying to wean themselves off a very expensive dependency. It won’t be a quick fix, though. So far, the efforts haven’t made a dent in the industry’s insatiable need for Nvidia’s AI accelerators.  \nThe AI boom has helped turn Nvidia into the world’s third-most-valuable tech company, behind only Microsoft and Apple Inc. Its sales to data center operators totaled $47.5 billion in fiscal 2024, up from just $15 billion the year before. Analysts predict that the sum will more than double again in fiscal 2025.",
+            "The title is a little misleading -  They not trying to make a general-purpose AI chip.   Reuters quotes them: \"***This chip’s architecture is fundamentally focused on providing the right balance of compute, memory bandwidth, and memory capacity for serving ranking and recommendation models,***\"   In other words this is not an AI for writing code or generating video or other general-purpose things; it's optimised for doing stuff Meta needs to do.     NVidia has nothing to worry about.",
+            "If Nvidia was not shooting past the moon this would be a missed opportunity to make specialized chips.  The fabricators Nvidia relies on are near full capacity almost through 2025.  Facebook can get in line."
+        ]
+    }
+]

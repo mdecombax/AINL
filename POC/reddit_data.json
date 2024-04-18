@@ -1,0 +1,172 @@
+[
+    {
+        "title": "The amazing era of Gemini ",
+        "url": "https://i.redd.it/4nfnenyvmvuc1.jpeg",
+        "content": "😲😲😲",
+        "comments": [
+            "learning programming is too dangerous!",
+            "Microsoft makes a very strong point why access to local models is more important than ever.  \nThe alternative seems to be a dystopian future where machines give you the middle finger and a friendly punch to the face on a whim.",
+            "This right here is why FOSS is king.",
+            "https://preview.redd.it/14n0z8tyvvuc1.png?width=792&format=png&auto=webp&s=c288a00fd7257f21f775610dea52d6be6833691d\n\nSkill issue",
+            "I didn't lie, it did happen... My main issue is can i trust it and its responses, when it give me crap like this sometimes?\n\nhttps://preview.redd.it/bm71n4490wuc1.jpeg?width=720&format=pjpg&auto=webp&s=2ad84d42fbd3a7057627c97bc3ed9db82c79ca01",
+            "Haha, yeah, this should surprise no one.  Gemini is amazing in it's theoretical capabilities, but the people behind it are trash.  Trash in, trash out.  I realize you don't get this response every time, but the fact that it happens at all shows the issues.  It should be able to give the same answer to the same questions again and again.  Dumb bots such as Siri and Alexa can do that.",
+            "Gemini became absolutely trash lately! It gave me an answer yesterday with its notes next to each line. I asked it to remove the inline notes it replied that it diesnt know how!",
+            "I just canceled my sub a few days ago. Prompting Gemini to answer my basic questions was way more frustrating than the code I am trying to troubleshoot.",
+            "Why are you like tgis Gemini, why??\n\nOpen source is the way to go, we can't let big corpo decide for you that learnning programming is bad for you or any other thing, bruh....",
+            "https://preview.redd.it/s5kfiednwvuc1.jpeg?width=1031&format=pjpg&auto=webp&s=6bcfb7aa562d94422e5c43d2f13e5f3d30a5e7ce\n\nI think OP is a troll."
+        ]
+    },
+    {
+        "title": "Today's open source models beat closed source models from 1.5 years ago.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1c33agw/todays_open_source_models_beat_closed_source/",
+        "content": "&#x200B;\n\nhttps://preview.redd.it/87iqgadwb9uc1.png?width=1262&format=png&auto=webp&s=4c5909b152ec997e577597a8d059db45b871c449\n\n[https://twitter.com/maximelabonne/status/1779123021480865807](https://twitter.com/maximelabonne/status/1779123021480865807)",
+        "comments": [
+            "Seeing Mixtral 8x7B with 13B activated parameters beat PaLM with 540B parameters is kind of amusing. But it shows how far things have progressed in such a short time.",
+            "The visualized difference between GPT4 and llama 65B is crazy. Things looked very hopeless back then. Everyone thought it was simply not possible to have a GPT4 quality model at home. Now I think the amount of people thinking that way is significantly lower. Maybe with the release of Llama 3 and really good finetunes of it... just maybe...",
+            "Im rooting for open source!\nLets bring the power back to the people💪",
+            "Note, the line for open source is catching up to the closed source one👀",
+            "What about GPT 3.5?",
+            "Today's **generalist** AIs beat **generalist** AIs from 1.5 years ago.\n\nToday's **specialist** AIs beat the hell out of current **generalist** AIs.",
+            "I wish that plot had all the versions of gpt 4 so we can see their process over time too.",
+            "I'd say Mixtral 8x7B Instruct kicks the ass of all the pay per token models that I've tried, for coding.",
+            "I think as time goes on things will become more and more open with Open source ones being at least 80 percent capability of the closed source ones ! \n\ni think the future is looking brighter than ever !",
+            "I really don’t like the 5 shot mmlu benchmark as it heavily relies on the “shots” which adds context to the model. 1-shot accuracy is a better quality benchmark imho as it shows real-world performance a bit better."
+        ]
+    },
+    {
+        "title": "TinyLlama + SDXS = real time kids story, uncut video, all running local on single RPI-CM4.",
+        "url": "https://v.redd.it/zp0oqn75s3uc1",
+        "content": "",
+        "comments": [
+            "hardware used and details [here](https://www.pamir.ai/)  \ntinyllama running on 1 thread with llama2.c given 10token/sec and another 3 thread running the sdxs \\~10sec per image.  \nwe gonna start with kids bedtime stories and work towards more powerful LLM + SD models to enable D&D/RPG games.",
+            "That is the most impressive thing that I’ve seen today. We need this as a product!",
+            "Incredible 🤯. Neal Stephenson eat your heart out. OP is making _A Young Lady's Illustrated Primer_ IRL",
+            "This is actually nice. Package it a little cleaner and sell it as a toy.",
+            "Where is the github?",
+            "Still faster than Copilot.",
+            "If you’re running on a CM4, it might be worth it to switch to llama.cpp and it should run much faster and have fancy features like grammar restriction or better quants. Really cool project!!",
+            "What display is that?",
+            "Think Tamagotchi AR -- send a picture via SMS to an api, have that via huggingface image CLIP model converted to description, then use it as a virtual item you can store and use for your character. \n\nFood items, Nap times to recover hp, and lose condition is no HP > need to create a new randomized character and render its 4 main emotional images on start up of a new creature or character.\n\nAziibPixelMixFull is a great pixel art model on civitai....\n\nJust a random idea but could use a twist to make it more viral.",
+            "Wow, that's so impressive. So often I wonder what applications there are for non-programmers and local LLMs and this is just a great fun thing you've built. Super cool."
+        ]
+    },
+    {
+        "title": "Cmon guys it was the perfect size for 24GB cards..",
+        "url": "https://i.redd.it/ilgc3i13uouc1.png",
+        "content": "",
+        "comments": [
+            "The sand is actually the ground up bones of 13-20Bs.",
+            "We need more 11-13B models for us poor 12GB vram folks",
+            "I’m GPU poor I can afford only 7B so I’m glad 🥹",
+            "After seeing what kind of stories 70B+ models can write, I find it hard to go back to anything smaller. Even the q2 versions of Miqu that can run completely in vram on a 24gb card seem better than any of the smaller models that I've tried regardless of quant.",
+            "https://preview.redd.it/iqtbxja8fpuc1.jpeg?width=500&format=pjpg&auto=webp&s=c9bea9c05079da3829e5a5738c29b3230161c3e1",
+            "24gb cards... That's the problem here. Very few people can casually spend up to two grand on a GPU so most people fine tune and run smaller models due to accessibility and speed. Until we see requirements being dropped significantly to the point where 34/70Bs can be run reasonably on a 12GB and below cards most of the attention will remain on 7Bs.",
+            "https://qwenlm.github.io/blog/qwen1.5-32b/",
+            "At least you have yi.",
+            "Is it? With a decent context window, a 4k monitor/windows taking some more VRAM. I found 20B-23B to be far easier to work with.",
+            "This meme has transcended and it's literally just reality now.\n\nThe 7Bs are just so small and cute, it's hard to resist them."
+        ]
+    },
+    {
+        "title": "WizardLM-2",
+        "url": "https://i.redd.it/v7sjx4062ouc1.png",
+        "content": "New family includes three cutting-edge models: WizardLM-2 8x22B, 70B, and 7B - demonstrates highly competitive performance compared to leading proprietary LLMs.\n\n📙Release Blog: [wizardlm.github.io/WizardLM2](http://wizardlm.github.io/WizardLM2)\n\n✅Model Weights: [https://huggingface.co/collections/microsoft/wizardlm-661d403f71e6c8257dbd598a](https://huggingface.co/collections/microsoft/wizardlm-661d403f71e6c8257dbd598a)\n",
+        "comments": [
+            "Apache 2.0 License.",
+            "\"As the natural world's human data becomes increasingly exhausted through LLM training, we believe that: the data carefully created by AI and the model step-by-step supervised by AI will be the sole path towards more powerful AI. Thus, we built a Fully AI powered Synthetic Training System to improve WizardLM-2:\"\n\nhttps://preview.redd.it/b0nox0u63ouc1.jpeg?width=3200&format=pjpg&auto=webp&s=9a56a1b6e9680bb61163bd16807a7421b8b0b11b",
+            "\"🧙‍♀️ WizardLM-2 8x22B is our most advanced model, and just slightly falling behind GPT-4-1106-preview.\n\n🧙 WizardLM-2 70B reaches top-tier capabilities in the same size.\n\n🧙‍♀️ WizardLM-2 7B even achieves comparable performance with existing 10x larger opensource leading models.\"\n\nhttps://preview.redd.it/zkkzcisy2ouc1.jpeg?width=3137&format=pjpg&auto=webp&s=73931c1f52066afde48ba33e3850c66c911a275c",
+            "I think this big 8x22B may be the best OSS model.",
+            "Hoping quants will be easy as it's based on Mixtral 8x22B.  \nDownloading now, will create Q4 and Q6.",
+            "> ..WizardLM-2 adopts the prompt format from Vicuna..\n\n*exasperated sigh*",
+            "Wizard 7B really beats Starling in my personal benchmark. Nearly matches mixtral instruct 8x7b",
+            "Not to alarm anyone but the weights and release blog just disappeared",
+            "What happened? It disappeared.",
+            "Old king is back 👍"
+        ]
+    },
+    {
+        "title": "WizardLM-2 was deleted because they forgot to test it for toxicity",
+        "url": "https://i.redd.it/lyaop5lw0suc1.png",
+        "content": "",
+        "comments": [
+            "They meant to release wizard and accidentally unleashed warlock.",
+            "Where can I download toxic wizard 2?",
+            "Does this mean that they're just going to re-release the model with the included testing? \n\nOr that they're going to kneecap it after they potentially find it out was uncensored?",
+            "Plausible deniability baby.",
+            "Did we get the uncensored version? 😎",
+            "backup the model because they gonna censor it. Lel",
+            "Who decides what items are required?",
+            "Chinese said: If the water is clear, there will be no fish.  \nCensored model become dumb.",
+            "What does it even mean?  Even if we assume there is some kind of test that they could do for toxicity, surely if they found anything they would have to retrain so how can they possibly say they just have to do a quick test and then re-release...",
+            "i wonder how much all this artificial ethics and morality cost us in performance? i'm a grown man and half the reason i am learning about LocalLLMs is because it pisses me off when a machine starts lecturing me on what is right. i'm an adult. i don't need to be lectured like a troubled child by software that is still being developed."
+        ]
+    },
+    {
+        "title": "I Was Wrong About Mistral AI",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1c1gfqw/i_was_wrong_about_mistral_ai/",
+        "content": "When microsoft invested into mistral ai and they closed sourced mistral medium and mistral large, I followed the doom bandwagon and believed that mistral ai is going closed source for good. Now that the new Mixtral has been released, I will admit that I’m wrong. I believe it is my tendency to engage in groupthink too much that caused these incorrect predictions.",
+        "comments": [
+            "Mistral always said, even from the beginning, that they would not open source every model. There was never anything surprising about them not open sourcing something.",
+            "If we could accurately predict things we'd be loaded with money.",
+            "Admitting you were wrong on reddit? Rare pepe discovered!",
+            "Some commenters in the original big mixtral release post rightfully called us out for our doomerism. I apologize on behalf of us.",
+            "> they closed sourced mistral medium and mistral large\n\nWhat? Weren't those already close sourced?",
+            ">I believe it is my tendency to engage in groupthink too much that caused these incorrect predictions.\n\nIf you were sitting in a room by yourself, do you really believe your predictions would be better than average? In fact, in prediction science, group consensus tends to be significantly more accurate than the average consensus of each individual over time.\n\nI'd be careful about misattributing the source of incorrect predictive ability. It can cause problems down the road.",
+            "I think that mistral got pushed into following through because others released models and the huge backlash they had from the changes.\n\nIf you think about the post-ms releases we received:\n\n* Base model of a previously released 7b\n* Ginormous MOE that pushes what counts as local\n* Still no hints on training or much of anything code-wise\n\nThey use OSS to stay relevant and advertise themselves in a way. I'm optimistic about them releasing stuff but I don't think it's solely altruistic. Their communication and behavior made people think like that. It's not doomerism to be skeptical. If nobody said anything, do you think they would have changed course?",
+            "What I don’t get is what their business model is/will be? Imo they won’t be able to compete just as a paid API.\nAnd also, no business model —> no money —> no more open model releases",
+            "I still am not sure I understand their business strategy",
+            "fear of getting negative karma's is real . Reddit is an echochamber ...from politics to tech"
+        ]
+    },
+    {
+        "title": "I hope everybody grabbed the new WizardLM models while they could. MS just wiped them from their HF repo.",
+        "url": "https://i.imgur.com/ntvCBlv.png",
+        "content": "",
+        "comments": [
+            "Shit, I just got home.  Anyone got a copy of the github and a 70b model?  The only 70b model I see is for mlx/macs.  Just clicked on the link for the mlx 70b model and repo is empty too.",
+            "but I guess because the license is apache2, then the forks can't be requested to be deleted, right? too late to apologize :)",
+            "W T F?",
+            "Looks like Ollama has it still: https://ollama.com/library/wizardlm2:8x22b",
+            "Edit: Okay yeah they forgot the final 'redteam and lobotomize' step https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Flyaop5lw0suc1.png\n\n-Original Comment Below-\nIt was too powerful? Lol a bit late.. heaps of people already downloaded it :D",
+            "WizardLM on Twitter just now:  [https://x.com/WizardLM\\_AI/status/1780101465950105775](https://x.com/WizardLM_AI/status/1780101465950105775)\n\nWe are sorry for that.  \nIt’s been a while since we’ve released a model months ago, so we’re unfamiliar with the new release process now: We accidentally missed an item required in the model release process - toxicity testing.  \nWe are currently completing this test quickly and then will re-release our model as soon as possible.  \nDo not worry, thanks for your kindly caring and understanding.",
+            "what if this is really just a genius marketing stunt?  i wasn't even that interested in it until it disappeared.",
+            "[https://huggingface.co/amazingvince/Not-WizardLM-2-7B](https://huggingface.co/amazingvince/Not-WizardLM-2-7B)\n\nThe blog: [https://web.archive.org/web/20240415221214/https://wizardlm.github.io/WizardLM2/](https://web.archive.org/web/20240415221214/https://wizardlm.github.io/WizardLM2/)",
+            "Ooh that's why I can't find the 70B anywhere :)",
+            "GGUFs are still up for now..."
+        ]
+    },
+    {
+        "title": "🚀🚀 Extending the context window of your LLMs to 1M tokens without any training !!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1c1ys5j/extending_the_context_window_of_your_llms_to_1m/",
+        "content": "InfLLM: Unveiling the Intrinsic Capacity of LLMs for Understanding Extremely Long Sequences with Training-Free Memory\n\narxiv: [https://arxiv.org/pdf/2402.04617.pdf](https://arxiv.org/pdf/2402.04617.pdf)\n\ncode: [https://github.com/thunlp/InfLLM](https://github.com/thunlp/InfLLM)  \n\n\nWe propose to construct a training-free context memory for the given LLMs. The results show that the method can extend the context window of Mistral-7B-inst-v0.2 from 32K to 1024K without any training, and achieving 100% accuracy on the passkey retrieval task (1024K). The method can be applied in any LLMs.",
+        "comments": [
+            "This looks very interesting. How does it work? From a glance it looks similar to a RAG system. The paper mentions “an efficient lookup system on distant tokens”. How does this know which tokens to prepend to the context?",
+            "Now offload kv cache to nvme :)))). Then we will have a short-term, long-term, and notebook memory system.",
+            "I swear it's almost every day now that we get something cool",
+            "How about vram/ram usage when we extend the context size?",
+            "Really hope that it will get integrated into exllama2 or llama.cpp. Memorizing Transformers is my favorite take on transformers and the paper mentioned it. \n\nI wonder if it can be further improved by removing unnecessary tokens(1 step expire span?) from memory block somehow or making memory blocks overlap or making grammar dependent blocks. \n\nEg consider two blocks \"In today's world non-\" followed by \"lethal weapons include rubber batons, electric tazers\". due to unlucky split context completely changed the meaning",
+            "AH, I so hate it when I open such threads and they already have pink links  \nDarn it, brain chips, you started all that!",
+            "How long does it take to process a 1 million token initial prompt? Time to first token can take a really long time due to prompt ingestion, I assume the same is true here?\n\nIf this method can be extended to say 10 million tokens or more (can it?) then surely prompt ingestion time will be a bottleneck?\n\nIt would be really cool if this could be stored on nvme (like some guy mentioned below).\n\nIf it's possible with 10 million + tokens, then perhaps one solution to long prompt ingestion times could be to pre-compute the initial prompt and save it as a checkpoint. Then the precomputed big context could essentially be a database, and follow up questions would not need to recompute the entire previous context.",
+            "does it have any impact on the amount of VRAM needed to run the model?\n\nedit: don't mind me, I found your reply to another comment similar to mine. I will link it below for anyone stumbling on my comment first:\nhttps://www.reddit.com/r/LocalLLaMA/s/7YDnd9ASt3\n\nAmazing job, keep going.",
+            "If I'm reading the paper correctly, I think the word \"understanding\" in the title is doing even more heavy lifting than usual in this case.  It looks like a less sophisticated version of [https://arxiv.org/abs/2308.15022](https://arxiv.org/abs/2308.15022) .",
+            "Taking this for a spin right now. I’ll report back if I have success."
+        ]
+    },
+    {
+        "title": "mistralai/Mixtral-8x22B-Instruct-v0.1 · Hugging Face",
+        "url": "https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1",
+        "content": "",
+        "comments": [
+            "Oh nice, I didn't expect them to release the instruct version publicly so soon. Too bad I probably won't be able to run it decently with only 32GB of ddr4.",
+            "I'm curious how the official instruct compares to the one of WizardLM.",
+            "Also mistralai/Mixtral-8x22B-v0.1: [https://huggingface.co/mistralai/Mixtral-8x22B-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)\n\nEdit: The official post: Cheaper, Better, Faster, Stronger | Mistral AI | Continuing to push the frontier of AI and making it accessible to all. -> [https://mistral.ai/news/mixtral-8x22b/](https://mistral.ai/news/mixtral-8x22b/)\n\nEdit 2: Mistral AI on Twitter:  https://x.com/MistralAILabs/status/1780596888473072029",
+            "These models are so fucking big, every time I finish downloading one they release another one. This is like 4 straight days of downloading and my ISP is getting mad",
+            "hope someone can make a comparison with WizardLM2, given that it's based on base Mixtral 8x22B, that would be interesting",
+            "Yeah baby",
+            "Ranks between Mistral Small and Mistral Medium on my NYT Connections benchmark and is indeed better than Command R Plus and Qwen 1.5 Chat 72B, which were the top two open weights models.",
+            "Model downloaded, converting to GGUF in progress.\n\nConversion completed, started Q8\\_0 quantization.\n\nQuantization done, executing llama.cpp.\n\nllama\\_model\\_load: error loading model: vocab size mismatch. \\_-\\_\n\nIs there an error in tokenizer.json? First we have:\n\n        {\n          \"id\": 8,\n          \"content\": \"[TOOL_RESULT]\",\n          \"single_word\": false,\n          \"lstrip\": false,\n          \"rstrip\": false,\n          \"normalized\": true,\n          \"special\": true\n        },\n        {\n          \"id\": 9,\n          \"content\": \"[/TOOL_RESULTS]\",\n          \"single_word\": false,\n          \"lstrip\": false,\n          \"rstrip\": false,\n          \"normalized\": true,\n          \"special\": true\n        }\n\nBut later:\n\n       \"vocab\": {\n          \"<unk>\": 0,\n          \"<s>\": 1,\n          \"</s>\": 2,\n          \"[INST]\": 3,\n          \"[/INST]\": 4,\n          \"[TOOL_CALLS]\": 5,\n          \"[AVAILABLE_TOOLS]\": 6,\n          \"[/AVAILABLE_TOOLS]\": 7,\n          \"[TOOL_RESULTS]\": 8,\n          \"[/TOOL_RESULTS]\": 9,\n          \"[IMG]\": 10,\n\nSo the token with id 8 shall be TOOL\\_RESULTS, not TOOL\\_RESULT. Anyone can confirm? Well, I'm going to change it manually and see what happens.\n\nYay, it loaded without problems when I corrected the token name and repeated the conversion/quantization steps.",
+            "Interesting with the new function calling and special tokens",
+            "Bring it on!!!   Now we just need a way to run it at a decent speed at home 😅"
+        ]
+    }
+]
