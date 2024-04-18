@@ -3,6 +3,10 @@ import time
 import json
 from openai import OpenAI
 import os
+from dotenv import load_dotenv
+
+# Charger les variables d'environnement depuis un fichier .env
+load_dotenv()
 
 
 def lire_json(fichier):
@@ -19,8 +23,11 @@ def lire_json(fichier):
 
 # Partie 1 : Scraping de contenu de Reddit
 def scrape_reddit(max_comments_per_post=7, sr = "LocalLLaMA"):
-    reddit = praw.Reddit(client_id="36NF-OTGo2EWrhkg22o0Zw",
-                         client_secret="XZ1KEyXmNnKj7tewYxAKvVpSnJSw4Q",
+    print("start scrape")
+    print(os.getenv("REDDIT_CLIENT_ID"))
+
+    reddit = praw.Reddit(client_id=os.getenv("REDDIT_CLIENT_ID"),
+                         client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
                          user_agent="autoNL")
     subreddit = reddit.subreddit(sr)
     scraped_data = []
@@ -53,16 +60,18 @@ def save_data_to_json(data, filename='reddit_data.json'):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
-# Partie 3 : Upload du fichier JSON chez OpenAI
+# Partie 3 : Upload du fichier JSON chez OpenAI 
 def upload_file_to_openai(filepath):
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
     client = OpenAI()
     file_response = client.files.create(file=open(filepath, "rb"), purpose="assistants")
     return file_response.id
 
 # Partie 4 : Création d'un assistant et fourniture du fichier à cet assistant
 def create_assistant_and_ask_question(file_id):
+    print("in creating assistant")
     client = OpenAI()
+    
     assistant_response = client.beta.assistants.create(
         instructions="""Vous êtes un spécialiste en contenu avec une expertise approfondie en intelligence artificielle. Votre mission est de créer une newsletter détaillée qui capte l'essence des discussions les plus engageantes et informatives extraites d'un subreddit dédié à l'IA. Voici un exemple de la structure de la newsletter
 

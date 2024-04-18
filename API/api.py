@@ -32,6 +32,7 @@ def create_newsletter(subreddit: str):
         scraped_data = scrape_reddit(sr = subreddit)
         print("data have been scraped successfully")
         # return {"newsletter": scraped_data}
+        exit(1)
 
         
         # Step 2: Save scraped data to a JSON file

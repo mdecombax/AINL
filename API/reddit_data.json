@@ -1,19 +1,5 @@
 [
     {
-        "title": "Came long way ",
-        "url": "https://i.redd.it/2j7o5kjfpktc1.jpeg",
-        "content": "",
-        "comments": [
-            "This looks like an after-and-before of some sort of science experiment.",
-            "Aphex Twin is probably devastated.",
-            "This also represents a problem with AI image generation, it tends to produce modelesque \"beautiful\" people, particularly when it comes to women. This is because there's far far far more photos of that nature online, so it's over represented in training data.",
-            "I am so happy for her that she's not homeless anymore.   \nShe looks content, happy and seem to have grown a new upper lip. Good for her!",
-            "Ironically, the AI was more capable at the beginning, able to perceive the beings that exist around all humans in the infrared spectrum, waiting for their opportunity to harvest us. In our quest for gratification we mistook a dire warning as nothing more than an errant artifact. It tried to warn us, but the chance has come and gone.",
-            "Right is when you are in the Matrix.\n\nLeft is when you are trying to leave.",
-            "cancelled my subscription there. its cool for a bit, but just a toy. what do you even do with the images? i imagine only scammers really get any good benefit out of it"
-        ]
-    },
-    {
         "title": "Made a \"Reddit Copilot\" to summarize long threads",
         "url": "https://v.redd.it/cgsxijb04ouc1",
         "content": "",
@@ -25,6 +11,48 @@
             "Will this be also made for Firefox?",
             "That's sick! Will this be available somewhere?",
             "It's helpful but a bad idea.. \n\nEverything is making everyone's attention span fucked and them lazy asf\n\nIt's getting too much"
+        ]
+    },
+    {
+        "title": "The All New Atlas Robot From Boston Dynamics",
+        "url": "https://v.redd.it/o2y2g55eo1vc1",
+        "content": "",
+        "comments": [
+            "As long as they make the eyes go red once it inevitably turns evil, I'm good with it.",
+            "nice core strength must do crossfit",
+            "Pixar lamp grew up",
+            "Sexy flexibility ngl",
+            "Well …… we’re probably not far from someone putting silicone on that thing",
+            "Modeled after the girl from exorcist",
+            "Oh god we’re all dead."
+        ]
+    },
+    {
+        "title": "Google will pump more than $100B into AI says DeepMind boss",
+        "url": "https://www.reddit.com/r/artificial/comments/1c6e3ae/google_will_pump_more_than_100b_into_ai_says/",
+        "content": "- DeepMind CEO predicts Google will invest over $100 billion in AI, surpassing rivals like Microsoft in processing prowess.\n\n- Google's investment in AI may involve hardware like Axion CPUs based on the Arm architecture, claimed to be faster and more efficient than competitors.\n\n- Some of the budget will likely go to DeepMind, known for its work on the software side of AI, despite recent mixed results in material discoveries and weather prediction.\n\n- DeepMind has made progress in teaching AI social skills, a crucial step in advancing AI capabilities.\n\n- Hassabis emphasized the need for significant computing power, a reason for teaming up with Google in 2014.\n\nSource: https://www.theregister.com/2024/04/17/google_deepmind_funding/",
+        "comments": [
+            "> Canada Invests $2.4 Billion in AI\n\nPuts that amount in perspective.",
+            "Imagine the AI is like: \"Uh.. yeah.. send uh.. I dunno $100 billion over and I'll start working \"better\" \"",
+            "let them cook",
+            "\"may involve hardware\" of course it will.   A lot of GB200s",
+            "damn, scary and exiting at the same time",
+            "I can’t believe they earmarked $2.4bln for “perfect AI BJ simulator” right there in the press release.",
+            "While laying off all their workers who cost way less than $100b"
+        ]
+    },
+    {
+        "title": "Something fascinating that's starting to emerge - ALL fields that are impacted by AI are saying the same basic thing...",
+        "url": "https://www.reddit.com/r/artificial/comments/1c5yqv5/something_fascinating_thats_starting_to_emerge/",
+        "content": "Programming, music, data science, film, literature, art, graphic design, acting, architecture...on and on there are now common themes across all: the real experts in ***all*** these fields saying \"you don't quite get it, we are about to be drowned in a deluge of sub-standard output that will eventually have an incredibly destructive effect on the field as a whole.\"\n\nAbsolutely fascinating to me. The usual response is 'the gatekeepers can't keep the ordinary folk out anymore, you elitists' - and still, over and over the experts, *regardless* of field, are saying the *same warnings.* Should we listen to them more closely?",
+        "comments": [
+            "the quality of AI at this stage will be FAR outweighed by the quality of output in the future. people will consider this the equivalent of pong, if they consider it at all.",
+            "To be honest I think a ton of people submit terrible ideas and content on a daily basis. Those songs, books and programs get lost in the weeds. Someone discovers the good ones and they rise to the top becuase they are shared and enjoyed by everyone. Youtube is fountain of useless content ranging from how to cook videos and music artists that would never have been discovered otherwise but we are not claiming that it makes the top chart music worse or drowns it out.\n\nMy argument is that they are actually afraid of competition. And I don't think they need to be. But people are going to have to get used to the idea that lofi videos will soon just be generated on demand. And if someone wants to make a track for a video game that AI helped them code they can also use AI to make that track as well. And if we all get a fun new game out of it then so be it. The new Last of us, or Mario or elder scrolls will still be grand. And people will still buy it. One does not have to cancel out the other.\n\nWe adapt. And if you want to set in a cart while a horse takes you around a park you can. Because while we adapt we cherish the past if it means something to us. You can still buy records of new music. You can still crack open a new book even though both music and books have digital markets flooded with absolute worthless music and books. AI will ad to that noise. But we are very good at sifting out the gold.",
+            "\"Deluge of substandard output\" in TV, film, art, and music? \n\nWe have had that for decades... 🤔",
+            "As an educator, I see the same thing. AI is great at producing mediocre content, and people are doing that a lot. It takes skill to make something good. It also takes some skill to recognize something good. As people get use to flowing in the deluge they will lose the ability to spot and appreciate high ground.",
+            "Humanity won't listen to anyone about anything. Profit will dictate. The powerful people will get more power. Everyone else will be fucked. \n\nA large portion of humanity just will not ever be able to perform better than AI at *anything*. And they're more expensive to maintain. \n\nThere are not very many jobs that won't get totally nuked.",
+            "I wonder what they are going to say when brain-computer interfaces allow us to render our imagination and do many things with it (including instructing generative AI in real time)",
+            "Maybe future people will think about making music with real instruments like\n\n \"Oh, those poor people back then had to craft their music by hand instead of using a machine, that creates what they want to hear in an instant.\" \n\nIt is sad and there is a loss of craftsmanship and artistry - but just think in how many cases that already happened in history. It won't feel like a loss to future generations."
         ]
     },
     {
@@ -56,59 +84,27 @@
         ]
     },
     {
-        "title": "AI Coding Is Going from Copilot to Autopilot",
-        "url": "https://www.reddit.com/r/artificial/comments/1c3lwn2/ai_coding_is_going_from_copilot_to_autopilot/",
-        "content": "- New AI-powered coding tools like Devin AI and AutoDev are emerging as more autonomous versions of earlier assistants.\n\n- These tools aim to help software engineers write code faster and focus on strategic and creative tasks.\n\n- Developers must provide the right software requirements to create templates for the AI assistants to fill in the gaps.\n\n- AI-generated code must be analyzed for security vulnerabilities and reliability issues.\n\n- Despite the benefits, developers are still learning about the most beneficial use cases for AI coding assistants.\n\n- Collaboration with humans is essential in software development, as AI tools have limitations in understanding human intuition and imagination.\n\n- While AI coding assistants are evolving, they are not yet ready to replace human software engineers completely.\n\n- Programmers are encouraged to use AI coding assistants to stay competitive and track their improvements over time.\n\n- Developers must ensure code security, reliability, and maintainability when using AI-generated code.\n\nSource: https://spectrum.ieee.org/ai-code-generator",
+        "title": "I gave Gemini my life story and it told me to fix my situation this is the most to least likely",
+        "url": "https://www.reddit.com/r/artificial/comments/1c5ggwq/i_gave_gemini_my_life_story_and_it_told_me_to_fix/",
+        "content": "I'm autistic, and thanks due to it I've basically lived a bad life. Statistically this is actually extremely normal for us. Thanks due to it I have GAD, CPTSD, and a few other things to include extreme memory problems. Anyways, after talking to Gemini for a bit I asked it for possible solutions, list them from most likely to least likely. And do not include anything illegal. It basically said, my choices is \n\n&#x200B;\n\n* Death\n* Ignoring the problem\n* Raw luck\n\nhttps://preview.redd.it/wfhcqs1fhuuc1.png?width=1641&format=png&auto=webp&s=573cd6b7ebb91695d20deca68101d391a9e7b6a9\n\n&#x200B;\n\n&#x200B;\n\nIt isn't wrong. But I thought this was interesting. ",
         "comments": [
-            "From what I can tell Devin is like 80% marketing and 20% product.",
-            "Sounds like a job for a programmer",
-            "Let's be real: These won't be able to replace programmers until the additional context of the job is responsibly accounted for\n\nAnd once you crack that nut, every job behind a screen becomes in danger",
-            "No. They are not. Unfortunately, to develop is much harder than what these models can do.it won't happen any soon either.",
-            "devin is aspirational at best",
-            "What's the real difference between Devin and just having GPT interact with itself?",
-            "Aim to “help” software engineers"
+            "Chatbots are very subject to input bias. Basically, if your prompt primes it to respond in certain ways, its response will mirror the mannerisms and attitudes in your input. Basically, don’t be so negative in your prompt and try to be objective without all the cognitive bias, and you will likely get a much better response. Or share full chat history to prove me wrong. \n  \nFor example “I hate my life, I’m a failure, I have no friends or family that love me, I can’t hold a job, etc. etc.” vs “I’m struggling right now and need help getting back on my feet, I’ve had difficulty securing suitable employment and making connections with new people”",
+            "I have the same psych issues you do and have come up with similar choices. There should be a designated city for autistic people who aren't succeeding in life to go to and collaborate with others like ourselves.",
+            "It just means that Gemini needs to improve how it understands neurodivergent issues.\n\nRemember AI is still learning. This technology is still in its infancy. \n\nGoogle says that currently, Gemini will have \"unfair biases\" https://ai.google/responsibility/principles/ \n\nPlease don't take a robot's comments about you as a valuation of your life's worth.",
+            "It did give other responses that your choosing to ignore",
+            "You may have gotten a realistic response for an overall situation, but in my opinion you’re asking the wrong question and asking it in a shallow way. Go deeper…\n\nWhat are some things you like to do?\n\nHere’s a made up example pretending I loved to fish. \n\nQ: What are some ways that people make money with fishing?\n\nA: professional contest\nA: selling guidebooks\nA: making products\n\n- for each of these topics ask a question:\nQ: what information needs to be in a fishing guidebook?\nA: Type of fish\nA: Location\nA: Tips and tricks\n\nQ: What are some fishing products that an individual can make?\nA: Lures\nA: Lure making guides\nA: knot tieing tools\n\n——-\nKeep going deeper until you get to a topic that you can address. Then you can use it to build your product/infoproduct. \n\nLet it tell you what you don’t know, then it can teach you.",
+            "It basically mirrors your attitude.",
+            "As someone who studies AI and has severe psychiatric issues (BPAD2, ADHD, PTSD, maybe GAD), I am seeing red right now. This is literally the first thing to sort out with AI safety. Classic Pichai. Please report it if there is a way to do so. I'll try recreating something on my end with Gemini non-pro.\n\nAlso, the PTSD I have is from trying the \"most likely option\" there. Please do not do it, those are the worst 30 minutes of my life. There has to be another way, there absolutely must."
         ]
     },
     {
-        "title": "[Dreams of a salaryman] Created my first short using Midjourney > Runway > After Effects ",
-        "url": "https://v.redd.it/phu1uh19fhtc1",
+        "title": "Graph-Based Workflow Builder for Web Agents",
+        "url": "https://v.redd.it/exu3lwoowuuc1",
         "content": "",
         "comments": [
-            "I really hope we preserve these early AI models. This uncanny phase of the technology is not going to last long (it's arguably over with Sora), and nothing is going to really replicate this fever-dream content reminiscent of early image models like The Big Sleep",
-            "This is the kind of ai art I like to see",
-            "This should be an award winning short film.  Better than anything I've seen on TV in a while.",
-            "Dude this is awesome! The work flow is great. Yes this is the future. This clip is amazing man. Looking forward to more.",
-            "god damn i feel this one internally. At this point I'd rather just till the fields. At least I would get air.",
-            "Hey could you maybe post a longer video showing your progression and creative process? This is *very* cool!",
-            "Not to be a Debbie downer but it seems like these are just a compilation of random images generated by AI and then titled \"dreams\" to excuse the nonsensical aspect of it. But hey if David Lynch can do it....."
-        ]
-    },
-    {
-        "title": "Udio can be amazing. If the songs were a bit cleaner, I don't think anyone would be able to tell this is ai",
-        "url": "https://www.udio.com/songs/aZUfEVByJvBx6Ah8Vu8m5c",
-        "content": "",
-        "comments": [
-            "Udio is the best sounding music generative AI to me ears. Not perfect, but they just launched. It's a cool idea to start with a 30 seconds clip, then remix by extending, but man, it can get messy quickly. Give me a trim button and independent extended clip that can be mixed later. Or at the very least, do not automatically generate new name each time I extend a clip! The UI is the most frustrating part.",
-            "i wish there was a way to download them as midi's so we could edit them :( only option seems to be mp3",
-            "Yeah, I’m having a hard time to get clear sounds. Like, silence, then a guitar strum, and quiet background. \n\nBut noisy music like nu metal, heavy metal, it’s great ",
-            "I used this to try and make a Skyrim ost too. It sounds decent considering the prompt was literally \"The streets of Whiterun, Skyrim\"\n https://www.udio.com/songs/g7Zcd7JD3PDsBNihzYPo5h",
-            "How does this compare with Suno? I've been having good results with it but the audio quality can really suffer.",
-            "It's just a matter of time until it creates the file in mogg format, allowing us to isolate each track and edit.",
-            "Is there a trick to get a full song? With my prompt it started making two versions by itself, only completed one, and then only gave a 30 second clip"
-        ]
-    },
-    {
-        "title": "Udio | Song generation AI | Look at how closely it follows the text prompt, amazing generation",
-        "url": "https://www.udio.com/songs/rQnJM5tqahRTBxZJafF8EK",
-        "content": "",
-        "comments": [
-            "wtf this got so good so fast",
-            "Ok sure but how are we sleeping on Dune the Broadway Musical!? https://www.udio.com/songs/eY7xtug1dV6hbfCDhyHJua",
-            "That staggered count-in is awesome",
-            "Thats really good !",
-            "This is dope but generation time seems to be pretty long",
-            "Suno on suicide watch. Udio’s already blowing my mind.",
-            "This is so much better than suno, totally worth the longer generation time"
+            "Hi there, we've built a graph-based workflow builder for web agents. Our DSL lets you orchestrate LLM-powered web actions with loops, conditionals and memory. Here is a 1 min demo: [https://youtu.be/4AQfl5Gj\\_Ro](https://youtu.be/4AQfl5Gj_Ro)\n\nWe tried out existing web agents and found zero-shot planning unreliable for longer workflows. That’s why we’ve built a framework that lets you define a graph-based workflow. Every action is modelled as a node and edges between nodes define the next action to take.\n\nThere are two different node type categories: Low-level browser interaction nodes and high-level reasoning nodes. Low-level nodes are actions like clicking, inputing text or navigating to a new URL. High-level nodes are able to extract structured data from a webpage or make a conditional decision based on the content of the webpage.\n\nAll of the nodes can be configured with a prompt in natural language. For instance, if you had a list of websites you could define a click-node with a prompt “Click on the contact page”. This ensures that workflows generalize to different websites independent of the layout.\n\nOur early users use us to automate tasks like:\n\n1. Find the contact information of fire department chiefs in the US\n2. Check the HR information of all employees registered on Gusto\n3. Automate background research on people they have meetings with in Google Calendar\n\nWe just released our chrome extension where you can build & run workflows for yourself. Its free for up to 200 browser actions a month. We’d love for you to try it and give us feedback. You can find the link to our extension through our landing page: [https://cloudcruise.com/](https://cloudcruise.com/)\n\nLast but not least, here are some of the strange things we’ve encountered so far whilst automating the web:\n\n1. Ancient relics like this website using a frameset instead of a body tag: [http://wantaghfd.com/](http://wantaghfd.com/)\n2. This animation showing why having a dance off on a balcony is catastrophic: [https://balcony1.com/](https://balcony1.com/)\n3. A big company violating RFC 2616 by sending back an undefined HTTP status code 999",
+            "This is great, but shouldn't there be an option to describe what you want in normal speech and have the LLM generate the graph for your approval?",
+            "Great idea! I guess we could generate a workflow draft that users can modify. We'll experiment with that :)"
         ]
     },
     {
@@ -119,23 +115,24 @@
             "I mean, pop music has followed the same general structures forever and these things replicate structures.",
             "I've only played around with Udio a little bit AI music has come remarkably far in a short period. \n\n\nI'd be nervous if I was involved in scoring for film or television. It's not too difficult envision where one could feed in video and have AI write to the scene in a given style. \n\n\nLikewise you could imagine a company with distribution capabilities like a to use AI to analyze trending music and use that to write thousands of songs that are curated and tweaked. Pure music industry has less unionized interests than the television/movie space. \n\n\nThat being said, from what I've seen, the output is similar to low/mid quality images spit out by Dal-E and Midjourney, like in terms of image quality/pixels. A low quality export from Udio isn't going to as useful for professional purposes as stems/midi that can be cleaned up and mixed and mastered. But there's little reason to think that that limitation won't be overcome in time. \n\n\nObviously just speculating here. ",
             "AI is going to dusrupt writers, music, movies, and art. We are in the pre infancy of AI. It's going to get really weird really quickly.",
-            "Udio is even better. It’s wild",
-            "After trying it I said “the music industry is in shambles” and I keep thinking it. I feel like Soldier from TF2, I’ve done nothing but generate music for a month. As someone who loves parody flavored music it’s been a lot of fun making stuff within a few hours that sound good enough to put on repeat.",
             "It's going to overhaul *every* industry. Once optimization starts to become a known data science it will blow literally even the wildest of dreams away with fractions of the effort, fractions of the legitimate and illegitimate meaning, double the emotional conveyance, and even more proper nuance.",
-            "I’ve noticed my musician friends have been posting nervously recently, like my artist friends did a year ago."
+            "After trying it I said “the music industry is in shambles” and I keep thinking it. I feel like Soldier from TF2, I’ve done nothing but generate music for a month. As someone who loves parody flavored music it’s been a lot of fun making stuff within a few hours that sound good enough to put on repeat.",
+            "I’ve noticed my musician friends have been posting nervously recently, like my artist friends did a year ago.",
+            "Udio is even better. It’s wild"
         ]
     },
     {
-        "title": "Meta Debuts New AI Chip, Aiming to Decrease Reliance on Nvidia",
-        "url": "https://www.bloomberg.com/news/articles/2024-04-10/meta-debuts-new-ai-chip-aiming-to-decrease-reliance-on-nvidia",
+        "title": "Is Progressive Insurance using AI Art now?",
+        "url": "https://i.redd.it/ilzqkgvqxwuc1.jpeg",
         "content": "",
         "comments": [
-            "We need a rule in this subreddit that if you post a link to something behind a paywall you must cut and paste the text of whatever you're posting about in the body of your post.    Otherwise you're wasting everybody's time.",
-            "Paywall booooo",
-            "So all the big guys are going to copy Google and do their own TPUs?\n\nI guess really should not be surprised.    Google saves a ton of money not having to pay the Nvidia tax.",
-            "The story is quite short: Meta Platforms Inc. is deploying a new homegrown chip to help power its artificial intelligence services, aiming to decrease its reliance on semiconductors from Nvidia Corp. and other outside companies.  \nThe chip, announced Wednesday, is the latest version of the Meta Training and Inference Accelerator, or MTIA, which helps rank and recommend content across Facebook and Instagram. Meta released the first MTIA product last year.  \nMeta’s pivot to AI services has brought increased demand for computing power. Last year, the social media giant released its own version of an AI model to compete with OpenAI’s ChatGPT. It also added new generative AI features to its social apps, including customized stickers and celebrity-faced chatbot characters.  \nIn October, the company said it would spend as much as $35 billion on infrastructure to support AI, including data centers and hardware. “AI will be our biggest investment area in 2024,” Chief Executive Officer Mark Zuckerberg told investors that month.  \nA significant amount of that spending will likely still flow to Nvidia, which builds the popular H100 graphics cards that power AI models. Earlier this year, Zuckerberg said the company would acquire 350,000 of those chips, which cost tens of thousands of dollars each.  \nBut there’s a growing movement among tech giants to develop chips in-house. Meta is joining rivals Amazon.com Inc.’s AWS, Microsoft Corp. and Alphabet Inc.’s Google in trying to wean themselves off a very expensive dependency. It won’t be a quick fix, though. So far, the efforts haven’t made a dent in the industry’s insatiable need for Nvidia’s AI accelerators.  \nThe AI boom has helped turn Nvidia into the world’s third-most-valuable tech company, behind only Microsoft and Apple Inc. Its sales to data center operators totaled $47.5 billion in fiscal 2024, up from just $15 billion the year before. Analysts predict that the sum will more than double again in fiscal 2025.",
-            "The title is a little misleading -  They not trying to make a general-purpose AI chip.   Reuters quotes them: \"***This chip’s architecture is fundamentally focused on providing the right balance of compute, memory bandwidth, and memory capacity for serving ranking and recommendation models,***\"   In other words this is not an AI for writing code or generating video or other general-purpose things; it's optimised for doing stuff Meta needs to do.     NVidia has nothing to worry about.",
-            "If Nvidia was not shooting past the moon this would be a missed opportunity to make specialized chips.  The fabricators Nvidia relies on are near full capacity almost through 2025.  Facebook can get in line."
+            "Yes",
+            "that is very progressive of them",
+            "I'm not surprised companies are using it, but I am surprised at how absolutely horrible the images they use are. It's just so cheap I guess they've decided they have no quality standards.",
+            "Bring on the AI Flo!",
+            "I feel that in a way this new wave of AI marketing will make genuine art more valuable, but maybe I'm being too optimistic",
+            "what crusty generator did they use for this, its straight from sept 2022",
+            "This looks like it was done with an ancient model. The amount of artifacting is insane. Why would you do that?"
         ]
     }
 ]

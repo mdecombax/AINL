@@ -45,7 +45,7 @@ btn.addEventListener('click', function() {
     }, 5000);
 
     // fetch("https://5741-34-79-1-11.ngrok-free.app/newsletters")
-    fetch('https://12e0-35-205-136-159.ngrok-free.app/newsletter/?subreddit=artificial',{
+    fetch('https://3082-34-140-83-82.ngrok-free.app/newsletter/?subreddit=artificial',{
         headers: {"ngrok-skip-browser-warning" : "69420"}
     })
         .then(response => response.json())
