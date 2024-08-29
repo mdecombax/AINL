@@ -33,11 +33,7 @@ function formatMarkdown(markdownText) {
     const formattedText = markdownText.replace(/(#+\s+)/g, '\n\n$1');
     return formattedText;
 }
-   document.getElementById('generateBtn').addEventListener('click', function() {
-    document.getElementById('loadingOverlay').classList.remove('hidden');
-    document.body.style.overflow = 'hidden'; // Empêche le défilement
-    startLoadingAnimation();
-   document.getElementById('generateBtn').addEventListener('click', function() {
+document.getElementById('generateBtn').addEventListener('click', function() {
     document.getElementById('loadingOverlay').classList.remove('hidden');
     document.body.style.overflow = 'hidden'; // Empêche le défilement
     startLoadingAnimation();
@@ -60,13 +56,6 @@ function formatMarkdown(markdownText) {
             
             // Cacher le contenu de la landing page
             document.getElementById('landing-content').style.display = 'none';
-            
-            // Cacher l'écran de chargement
-            document.getElementById('loadingOverlay').classList.add('hidden');
-            document.body.style.overflow = 'auto';
-            
-            // Cacher le contenu de la landing page
-            document.getElementById('landing-content').style.display = 'none';
         })
         .catch(error => {
             console.log("error : " + error)
@@ -76,8 +65,8 @@ function formatMarkdown(markdownText) {
             // Ajoutez également ces lignes dans le bloc catch
             document.getElementById('loadingOverlay').classList.add('hidden');
             document.body.style.overflow = 'auto';
-        });});
-
+        });
+});
 function createParticle() {
   const particle = document.createElement('div');
   particle.className = 'absolute bg-white rounded-full opacity-0';
