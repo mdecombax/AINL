@@ -4,7 +4,7 @@ import uvicorn
 import time
 
 # Import existing functions
-from script import scrape_reddit, save_data_to_json, upload_file_to_openai, create_assistant_and_ask_question, interact_with_assistant
+from script import scrape_reddit, save_data_to_json, upload_file_to_openai, create_assistant_and_ask_question, interact_with_assistant, generate_newsletter
 
 
 
@@ -25,18 +25,28 @@ def do_nothing():
     return "zozo"
 
 @app.get("/newsletter/")
+
+def create_newsletter(subreddit: str):
+    scraped_data = scrape_reddit(sr=subreddit)
+    newsletter_content = generate_newsletter(scraped_data)
+    return newsletter_content
+
+@app.get("/newsletter1/")
 def create_newsletter(subreddit: str):
     try:
         print(f"Subreddit: {subreddit}")
         # Step 1: Scrape Reddit using the provided subreddit name
         scraped_data = scrape_reddit(sr = subreddit)
         print("data have been scraped successfully")
+        # return ("end of step 1")
         # return {"newsletter": scraped_data}
 
         
         # Step 2: Save scraped data to a JSON file
         a = save_data_to_json(scraped_data)
         print(f"data have been saved to JSON file successfully")
+        # return ("end of step 2")
+
         
         # Step 3: Upload the JSON file to OpenAI
         file_id = upload_file_to_openai("reddit_data.json")

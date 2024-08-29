@@ -33,33 +33,112 @@ function formatMarkdown(markdownText) {
     const formattedText = markdownText.replace(/(#+\s+)/g, '\n\n$1');
     return formattedText;
 }
-
-btn.addEventListener('click', function() {
+   document.getElementById('generateBtn').addEventListener('click', function() {
+    document.getElementById('loadingOverlay').classList.remove('hidden');
+    document.body.style.overflow = 'hidden'; // Empêche le défilement
+    startLoadingAnimation();
     contentDiv.innerHTML = ''; // Clear previous content
     btn.disabled = true;
 
-    // Start loading messages
-    let messageInterval = setInterval(function() {
-        loadingDiv.textContent = messages[messageIndex++];
-        if (messageIndex >= messages.length) messageIndex = 0;
-    }, 5000);
-
-    // fetch("https://5741-34-79-1-11.ngrok-free.app/newsletters")
-    fetch('https://3082-34-140-83-82.ngrok-free.app/newsletter/?subreddit=artificial',{
+    fetch('http://127.0.0.1:8000/newsletter/?subreddit=france',{
         headers: {"ngrok-skip-browser-warning" : "69420"}
     })
         .then(response => response.json())
         .then(data => {
-            clearInterval(messageInterval);
             btn.disabled = false;
             const rawHtml = marked.parse(data);
             contentDiv.innerHTML = rawHtml;
             contentDiv.classList.remove('hidden');
+            
+            // Cacher l'écran de chargement
+            document.getElementById('loadingOverlay').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+            
+            // Cacher le contenu de la landing page
+            document.getElementById('landing-content').style.display = 'none';
         })
         .catch(error => {
             console.log("error : " + error)
-            clearInterval(messageInterval);
             loadingDiv.textContent = 'Failed to generate newsletter: ' + error;
             btn.disabled = false;
+            
+            // Ajoutez également ces lignes dans le bloc catch
+            document.getElementById('loadingOverlay').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        });});
+
+function createParticle() {
+  const particle = document.createElement('div');
+  particle.className = 'absolute bg-white rounded-full opacity-0';
+  particle.style.width = '4px';
+  particle.style.height = '4px';
+  particle.style.left = Math.random() * 100 + '%';
+  particle.style.top = Math.random() * 100 + '%';
+  document.getElementById('particleContainer').appendChild(particle);
+
+  anime({
+    targets: particle,
+    opacity: [0, 0.5, 0],
+    scale: [0, 1],
+    translateX: anime.random(-50, 50),
+    translateY: anime.random(-50, 50),
+    duration: anime.random(1000, 3000),
+    easing: 'easeOutExpo',
+    complete: () => {
+      particle.remove();
+      createParticle();
+    }
+  });
+}
+
+function startLoadingAnimation() {
+  const loadingMessages = [
+    "Extraction de données depuis le futur lointain...",
+    "Interception de signaux extraterrestres...",
+    "Récupération des écrits perdus de la bibliothèque d'Alexandrie...",
+    "Analyse des rêves des visionnaires...",
+    "Piratage des pensées de génies disparus...",
+    "Décodage des murmures des anciens arbres...",
+    "Siphonnage des flux de conscience des philosophes...",
+    "Capture des échos du Big Bang...",
+    "Extraction de savoirs cachés dans les cavernes les plus profondes...",
+    "Récolte des idées qui flottent dans l'atmosphère de Jupiter..."
+  ];
+
+  let currentIndex = 0;
+  const messageElement = document.querySelector("#loadingOverlay h2");
+  const progressBar = document.getElementById('progressBar');
+
+  function updateMessage() {
+    anime({
+      targets: messageElement,
+      opacity: [1, 0],
+      duration: 500,
+      easing: 'easeOutExpo',
+      complete: () => {
+        messageElement.textContent = loadingMessages[currentIndex];
+        anime({
+          targets: messageElement,
+          opacity: [0, 1],
+          duration: 500,
+          easing: 'easeInExpo'
         });
-});
+        currentIndex = (currentIndex + 1) % loadingMessages.length;
+      }
+    });
+
+    anime({
+      targets: progressBar,
+      width: `${((currentIndex + 1) / loadingMessages.length) * 100}%`,
+      duration: 1000,
+      easing: 'easeInOutQuad'
+    });
+  }
+
+  updateMessage();
+  setInterval(updateMessage, 10000);
+
+  for (let i = 0; i < 50; i++) {
+    createParticle();
+  }
+}

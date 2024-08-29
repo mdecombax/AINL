@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="loading.js"></script>
+</head>
+
+<body class="bg-white flex flex-col items-center justify-center min-h-screen pt-20">
+    <div id="loadingOverlay" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-5 z-50">
+        <!-- Spinner Container -->
+        <div class="flex flex-col items-center">
+            <!-- Spinner Animation -->
+            <div class="flex flex-col items-center justify-center h-screen">
+                <div class="rounded-full h-20 w-20 bg-blue-800 animate-ping"></div>
+                <h2 class="text-center text-black text-xl mb- mt-20">Chargement en cours...</h2>
+            </div>
+
+        </div>
+    </div>
+</body>
+<!-- Loading Overlay -->
+</html>
