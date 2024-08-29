@@ -40,7 +40,7 @@ function formatMarkdown(markdownText) {
     contentDiv.innerHTML = ''; // Clear previous content
     btn.disabled = true;
 
-    fetch('http://127.0.0.1:8000/newsletter/?subreddit=france',{
+    fetch('http://127.0.0.1:8000/newsletter/?subreddit=DaftPunk',{
         headers: {"ngrok-skip-browser-warning" : "69420"}
     })
         .then(response => response.json())
@@ -108,6 +108,7 @@ function startLoadingAnimation() {
   let currentIndex = 0;
   const messageElement = document.querySelector("#loadingOverlay h2");
   const progressBar = document.getElementById('progressBar');
+  let progress = 0;
 
   function updateMessage() {
     anime({
@@ -126,17 +127,37 @@ function startLoadingAnimation() {
         currentIndex = (currentIndex + 1) % loadingMessages.length;
       }
     });
+  }
 
-    anime({
-      targets: progressBar,
-      width: `${((currentIndex + 1) / loadingMessages.length) * 100}%`,
-      duration: 1000,
-      easing: 'easeInOutQuad'
+  function updateProgressBar() {
+    const duration = 7000; // 15 secondes
+    const interval = 100; // Mise à jour toutes les 100ms
+    const steps = duration / interval;
+    const increment = 100 / steps;
+
+    const progressAnimation = anime.timeline({
+      duration: duration,
+      easing: 'easeInOutQuad',
+      update: function(anim) {
+        progress = anim.progress;
+        progressBar.style.width = `${progress}%`;
+      }
     });
+
+    for (let i = 0; i < steps; i++) {
+      progressAnimation.add({
+        duration: interval,
+        progress: increment * (i + 1),
+        easing: function() {
+          return Math.random() * 0.9 + 0.1; // Variation aléatoire de la vitesse
+        }
+      });
+    }
   }
 
   updateMessage();
   setInterval(updateMessage, 10000);
+  updateProgressBar();
 
   for (let i = 0; i < 50; i++) {
     createParticle();
