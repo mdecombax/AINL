@@ -37,6 +37,10 @@ function formatMarkdown(markdownText) {
     document.getElementById('loadingOverlay').classList.remove('hidden');
     document.body.style.overflow = 'hidden'; // Empêche le défilement
     startLoadingAnimation();
+   document.getElementById('generateBtn').addEventListener('click', function() {
+    document.getElementById('loadingOverlay').classList.remove('hidden');
+    document.body.style.overflow = 'hidden'; // Empêche le défilement
+    startLoadingAnimation();
     contentDiv.innerHTML = ''; // Clear previous content
     btn.disabled = true;
 
@@ -49,6 +53,13 @@ function formatMarkdown(markdownText) {
             const rawHtml = marked.parse(data);
             contentDiv.innerHTML = rawHtml;
             contentDiv.classList.remove('hidden');
+            
+            // Cacher l'écran de chargement
+            document.getElementById('loadingOverlay').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+            
+            // Cacher le contenu de la landing page
+            document.getElementById('landing-content').style.display = 'none';
             
             // Cacher l'écran de chargement
             document.getElementById('loadingOverlay').classList.add('hidden');
