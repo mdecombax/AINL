@@ -10,12 +10,13 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
 </head>
 
 <body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen pt-20">
+
   <!-- Overlay de chargement (affiché pendant la génération de la newsletter) -->
   <div id="loadingOverlay" class="fixed inset-0 flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 z-50 hidden">
     <div class="flex flex-col items-center justify-center w-full h-full">
@@ -36,7 +37,7 @@
   <nav class="fixed top-0 w-full bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
       <a href="https://flowbite.com" class="flex items-center">
-        <img src="../logos/_Main Logo.png" class="mr-4 h-16 sm:h-30" alt="AI NL Logo" />
+        <img src="../../images/logos/_Main Logo.png" class="mr-4 h-16 sm:h-30" alt="AI NL Logo" />
         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">AI NL</span>
       </a>
       <div class="flex items-center lg:order-2">
@@ -52,7 +53,7 @@
           <span class="sr-only">Open main menu</span>
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              d="M3 5a1 1 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
               clip-rule="evenodd"></path>
           </svg>
           <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -95,7 +96,7 @@
   </nav>
 
   <!-- Contenu principal de la page d'accueil -->
-  <div id="landing-content" class="flex flex-col items-center">
+  <section id="landing-content" class="flex flex-col items-center">
     <div class="bg-gray-100" id="zozo">
       <!-- Section principale avec le titre, le sous-titre et le formulaire d'inscription -->
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex justify-between items-start">
@@ -129,7 +130,7 @@
         </div>
         <!-- Image GIF (affichée à droite du contenu textuel) -->
         <div class="max-w-xs ml-20">
-          <img src="../images/gif/iphone-unscreen.gif" alt="Newsletter GIF" class="rounded-lg shadow-" />
+          <img src="../../images/gif/iphone-unscreen.gif" alt="Newsletter GIF" class="rounded-lg shadow-" />
         </div>
       </div>
     </div>
@@ -138,16 +139,16 @@
     <button id="generateBtn" class="mt-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
       Generate Newsletter
     </button>
-  </div>
+  </section>
 
   <!-- Message de chargement (affiché pendant la génération de la newsletter) -->
   <div id="loadingMessage" class="mt-5 text-gray-700 hidden"></div>
 
   <!-- Contenu de la newsletter générée (affiché après la génération) -->
-  <div id="newsletterContent" class="mt-5 p-5 bg-white rounded shadow-lg w-3/4 hidden markdown-body"></div>
+  <section id="newsletterContent" class="mt-5 p-5 bg-white rounded shadow-lg w-3/4 hidden markdown-body"></section>
 
   <!-- Lien vers le script JavaScript principal -->
-  <script src="script.js"></script>
+  <script type= "module", src="js/app.js"></script>
 </body>
 
 </html>
