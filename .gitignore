@@ -1,6 +1,6 @@
-APP/server/__pycache__/
-APP/server/modules/__pycache__/
+server/__pycache__/
+server/modules/__pycache__/
 env/
-APP/server/.env
+server/.env
 .cody/
 .POC/
