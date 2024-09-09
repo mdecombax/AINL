@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+      body {
+      max-height: 100vh; /* Viewport height */
+      }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+  <!-- Métadonnées et liens vers les ressources externes -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter Generator</title>
+  <!-- Liens vers les feuilles de style et les scripts externes -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+
+</head>
+
+
+
+<body class="bg-gray-100 flex flex-col items-center h-screen">
+
+  <!-- Overlay de chargement (affiché pendant la génération de la newsletter) -->
+  <div id="loadingOverlay" class="fixed inset-0 flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 z-50 hidden">
+    <div class="flex flex-col items-center justify-center w-full h-full">
+      <div id="particleContainer" class="absolute inset-0"></div>
+      <div class="z-10 text-white text-center">
+        <div class="rounded-full h-32 w-32 bg-white bg-opacity-20 flex items-center justify-center mb-8 mx-auto">
+          <div class="rounded-full h-24 w-24 border-t-4 border-b-4 border-white animate-spin"></div>
+        </div>
+        <h2 class="text-3xl font-bold mb-4 transition-opacity duration-500 ease-in-out"></h2>
+        <div class="w-64 h-2 bg-white bg-opacity-20 rounded-full mt-8 mx-auto">
+          <div id="progressBar" class="h-full bg-white rounded-full transition-all duration-300 ease-in-out" style="width: 0%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <button id="confirmSelectionBtn" class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 hidden">
+    Confirmer la sélection
+  </button>
+
+
+  <!-- Message de chargement (affiché pendant la génération de la newsletter) -->
+  <div id="loadingMessage" class="mt-5 text-gray-700 hidden"></div>
+
+
+  <!-- Barre de navigation -->
+  <nav class="bg-white shadow-md py-4 w-full flex-grox">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <a href="#" class="text-2xl font-bold text-purple-600">Newsletter AI</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="#" class="text-gray-700 hover:text-purple-600 transition">Accueil</a>
+        <a href="#" class="text-gray-700 hover:text-purple-600 transition">Fonctionnalités</a>
+        <a href="#" class="text-gray-700 hover:text-purple-600 transition">Tarifs</a>
+        <a href="#" class="text-gray-700 hover:text-purple-600 transition">Contact</a>
+      </div>
+      <!-- Hamburger pour mobile -->
+      <div class="md:hidden flex items-center">
+        <button id="menuBtn" class="text-gray-700 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Menu mobile -->
+    <div id="mobileMenu" class="hidden md:hidden overflow-hidden transition-all duration-300">
+      <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 transition">Accueil</a>
+      <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 transition">Fonctionnalités</a>
+      <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 transition">Tarifs</a>
+      <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 transition">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Newsletter content (affiché après la génération de la newsletter) -->
+  <section id="newsletterContent" class="mt-5 p-5 bg-white rounded shadow-lg w-3/4 items-center justify-center hidden markdown-body"></section>
+
+  <div id="main_content" >
+
+    <!-- Section présentation du produit -->
+    <header class="text-center py-16 px-4 sm:px-8 bg-gradient-to-r from-indigo-500 to-purple-600 text-white animate-fade-in">
+      <h1 class="text-5xl font-bold">Générez des Newsletters Pertinentes avec l'IA</h1>
+      <p class="mt-4 text-lg">Créez des newsletters personnalisées grâce à une intelligence artificielle qui collecte et sélectionne les informations les plus pertinentes à partir d'un thème donné.</p>
+    </header>
+    
+    <!-- Formulaire de saisie de thème -->
+    <main class="flex items-center justify-center py-16 bg-gray-100">
+      <div class="bg-white shadow-md rounded-lg p-8 max-w-lg w-full">
+        <h2 class="text-2xl font-semibold text-gray-800 text-center mb-6">Entrez votre thème</h2>
+  
+        <form id="themeForm" class="flex flex-col items-center space-y-4">
+          <input type="text" id="themeInput" placeholder="Entrez un thème" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-purple-600" required>
+          <button type="submit" class="bg-purple-600 text-white py-2 px-6 rounded-lg hover:bg-purple-700 transition">Générer</button>
+        </form>
+
+  
+        <p id="successMessage" class="text-center text-green-500 mt-4 hidden">Requête envoyée avec succès !</p>
+      </div>
+    </main>
+  </div>
+    <section class="py-16 bg-white animate-fade-in">
+      <div class="container mx-auto text-center px-4">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-8">Pourquoi utiliser notre solution ?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Fonctionnalité 1 avec pictogramme -->
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105">
+            <div class="flex justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.75L3.75 7.5v9l6 3.75 6-3.75 6-3.75-6-3.75-6-3.75z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-purple-600 mb-4">Utilisation de l'IA</h3>
+            <p class="text-gray-700">Notre IA analyse et sélectionne les informations les plus pertinentes pour vous offrir une newsletter ciblée et efficace.</p>
+          </div>
+          <!-- Fonctionnalité 2 avec pictogramme -->
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105">
+            <div class="flex justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-purple-600 mb-4">Sources variées</h3>
+            <p class="text-gray-700">Nous collectons les informations de multiples sources pour garantir une diversité et une richesse de contenu pour chaque newsletter.</p>
+          </div>
+          <!-- Fonctionnalité 3 avec pictogramme -->
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105">
+            <div class="flex justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a5 5 0 005 5h8a5 5 0 005-5V7a5 5 0 00-5-5H8a5 5 0 00-5 5z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-purple-600 mb-4">Suivi en temps réel</h3>
+            <p class="text-gray-700">Notre système surveille en temps réel les tendances et actualités pour vous fournir les informations les plus fraîches disponibles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 w-full mt-auto">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Newsletter AI. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script type= "module" src="script.js"></script>
+</body>

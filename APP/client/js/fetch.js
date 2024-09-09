@@ -2,12 +2,13 @@ import { displayContent, enableGenerateButton, hideLoadingOverlay, hideLandingCo
 
 // Fetch the newsletter content from the API
 export function fetchNewsletter() {
-    fetch('http://127.0.0.1:8000/newsletter/?subreddit=startups', {
+    fetch('http://127.0.0.1:8000/test/?subreddits=claudeai', {
         headers: { "ngrok-skip-browser-warning": "69420" }
     })
     .then(response => response.json())
     .then(data => {
         enableGenerateButton();
+        console.log(data)
         const rawHtml = marked.parse(data);
         displayContent(rawHtml);
         hideLoadingOverlay();

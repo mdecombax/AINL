@@ -1,3 +1,6 @@
+console.log(marked.parse('I am using **marked**.'));
+
+
 // Import necessary functions
 import { showLoadingOverlay, prepareForContentLoad, hideLoadingOverlay, enableGenerateButton, displayContent, handleError, hideLandingContent } from './ui.js';
 import { startLoadingAnimation } from './animation.js';
